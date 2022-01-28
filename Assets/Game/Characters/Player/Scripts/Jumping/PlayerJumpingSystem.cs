@@ -29,8 +29,6 @@ namespace Game.Characters.Player.Scripts.Jumping
                 _gravityForce -= _gravityValue * Time.deltaTime;
             else
                 _gravityForce = -1f;
-
-            Debug.Log(_characterController.isGrounded);
             
             if (_jumpingInputControl.CurrentInput() && _characterController.isGrounded)
             {

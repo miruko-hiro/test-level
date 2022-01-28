@@ -28,6 +28,7 @@ namespace Game.Characters.Player.Scripts.Movement
             if (_characterController.isGrounded)
             {
                 var (x, z) = _movementInputControl.CurrentInput();
+                
                 _playerVelocity = new Vector3(x, 0f, z);
                 _playerVelocity = _transform.TransformDirection(_playerVelocity);
                 _playerVelocity *= _speed;

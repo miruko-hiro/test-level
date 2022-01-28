@@ -6,6 +6,11 @@
       <e p="Assets" t="Include">
         <e p="Game" t="Include">
           <e p="Characters" t="Include">
+            <e p="Enemies" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Enemy.cs" t="Include" />
+              </e>
+            </e>
             <e p="Player" t="Include">
               <e p="Scripts" t="Include">
                 <e p="Jumping" t="Include">
@@ -24,11 +29,42 @@
                   <e p="MouseRotationInputControl.cs" t="Include" />
                   <e p="PlayerRotationSystem.cs" t="Include" />
                 </e>
+                <e p="Shooting" t="Include">
+                  <e p="IShootingInputControl.cs" t="Include" />
+                  <e p="MouseShootingInputControl.cs" t="Include" />
+                  <e p="PlayerShootingSystem.cs" t="Include" />
+                </e>
               </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Health.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Helpers" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="PoolMono.cs" t="Include" />
             </e>
           </e>
           <e p="Scripts" t="Include">
-            <e p="NewBehaviourScript.cs" t="Include" />
+            <e p="CollisionDamage.cs" t="Include" />
+            <e p="Health.cs" t="Include" />
+            <e p="IDamage.cs" t="Include" />
+            <e p="IDamageRecipient.cs" t="Include" />
+          </e>
+          <e p="Weapons" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Bullet.cs" t="Include" />
+              <e p="IHitEffect.cs" t="Include" />
+              <e p="IShootEffect.cs" t="Include" />
+              <e p="Weapon.cs" t="Include" />
+              <e p="WeaponHitEffect.cs" t="Include" />
+              <e p="WeaponShootEffect.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="SimpleFX" t="Include">
+          <e p="Materials" t="Include">
+            <e p="UnlitVertexColour_Alpha.shader" t="Include" />
           </e>
         </e>
       </e>
