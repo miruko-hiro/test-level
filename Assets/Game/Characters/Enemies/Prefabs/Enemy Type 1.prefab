@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7510313805533606789}
   - component: {fileID: 5933920363539068279}
   - component: {fileID: 6399965761663171026}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArmRight Duck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 7266278098823973819}
   - component: {fileID: 2773082168685018079}
   - component: {fileID: 6139432754876721471}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152,7 +152,7 @@ GameObject:
   - component: {fileID: 1440706750893012853}
   - component: {fileID: 1131141073169939115}
   - component: {fileID: 6366876990871793360}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArmLeft Duck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,7 +231,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8843145690827087053}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: armRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5611871372505080649}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: handSlotRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -300,7 +300,7 @@ GameObject:
   - component: {fileID: 3774750400995044616}
   - component: {fileID: 2990172233924187313}
   - component: {fileID: 8916795064008792857}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy Type 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -421,7 +421,7 @@ GameObject:
   - component: {fileID: 4201220190640815360}
   - component: {fileID: 5440296421932052617}
   - component: {fileID: 3226632287197325837}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head Duck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -502,7 +502,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6750059152141867381}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: handSlotLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -532,7 +532,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 649196069311037859}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: KayKit Animated Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -563,7 +563,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5726105477048915470}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -597,7 +597,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6319576343518414278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: armLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -631,7 +631,7 @@ GameObject:
   - component: {fileID: 8929087930467862685}
   - component: {fileID: 5495981161405269816}
   - component: {fileID: 7755571252975907826}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Blaster Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -713,7 +713,7 @@ GameObject:
   - component: {fileID: 8764747168824356907}
   - component: {fileID: 5624284041641328526}
   - component: {fileID: 7631789100164254532}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body Duck
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -6,7 +6,7 @@ namespace Game.Characters.Player.Scripts.Shooting
     {
         public bool CurrentInput()
         {
-            return Input.GetButtonDown("Fire1");
+            return Input.GetButton("Fire1");
         }
     }
 }

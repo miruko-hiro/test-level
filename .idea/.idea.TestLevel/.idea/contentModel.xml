@@ -13,6 +13,11 @@
             </e>
             <e p="Player" t="Include">
               <e p="Scripts" t="Include">
+                <e p="Aiming" t="Include">
+                  <e p="IAimingInputControl.cs" t="Include" />
+                  <e p="MouseAimingInputControl.cs" t="Include" />
+                  <e p="PlayerAimingSystem.cs" t="Include" />
+                </e>
                 <e p="Jumping" t="Include">
                   <e p="IJumpingInputControl.cs" t="Include" />
                   <e p="KeyboardJumpingInputControl.cs" t="Include" />
@@ -52,22 +57,41 @@
             <e p="IDamageRecipient.cs" t="Include" />
           </e>
           <e p="Weapons" t="Include">
+            <e p="Materials" t="Include">
+              <e p="UnlitVertexColour_Alpha.shader" t="Include" />
+            </e>
             <e p="Scripts" t="Include">
               <e p="Bullet.cs" t="Include" />
               <e p="IHitEffect.cs" t="Include" />
               <e p="IShootEffect.cs" t="Include" />
+              <e p="IWeaponAnimation.cs" t="Include" />
               <e p="Weapon.cs" t="Include" />
+              <e p="WeaponAnimation.cs" t="Include" />
+              <e p="WeaponCrosshair.cs" t="Include" />
               <e p="WeaponHitEffect.cs" t="Include" />
               <e p="WeaponShootEffect.cs" t="Include" />
             </e>
           </e>
         </e>
-        <e p="SimpleFX" t="Include">
-          <e p="Materials" t="Include">
-            <e p="UnlitVertexColour_Alpha.shader" t="Include" />
+        <e p="Plugins" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTween.Modules.asmdef" t="Include" />
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModuleEPOOutline.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+            </e>
           </e>
         </e>
       </e>
+      <e p="DOTween.Modules.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
