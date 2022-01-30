@@ -4,11 +4,11 @@ namespace Game.Weapons.Scripts
 {
     public class WeaponShootEffect: MonoBehaviour, IShootEffect
     {
-        [SerializeField] private ParticleSystem _flashShoot;
+        [SerializeField] private ParticleSystem _flashShootParticle;
 
         public void Show()
         {
-            _flashShoot.Play();
+            _flashShootParticle.Play();
         }
     }
 }

@@ -11,43 +11,47 @@
                 <e p="Enemy.cs" t="Include" />
               </e>
             </e>
-            <e p="Player" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="Aiming" t="Include">
-                  <e p="IAimingInputControl.cs" t="Include" />
-                  <e p="MouseAimingInputControl.cs" t="Include" />
-                  <e p="PlayerAimingSystem.cs" t="Include" />
-                </e>
-                <e p="Jumping" t="Include">
-                  <e p="IJumpingInputControl.cs" t="Include" />
-                  <e p="KeyboardJumpingInputControl.cs" t="Include" />
-                  <e p="PlayerJumpingSystem.cs" t="Include" />
-                </e>
-                <e p="Movement" t="Include">
-                  <e p="IMovementInputControl.cs" t="Include" />
-                  <e p="KeyboardMovementInputControl.cs" t="Include" />
-                  <e p="PlayerMovementSystem.cs" t="Include" />
-                </e>
-                <e p="PlayerView.cs" t="Include" />
-                <e p="Rotation" t="Include">
-                  <e p="IRotationInputControl.cs" t="Include" />
-                  <e p="MouseRotationInputControl.cs" t="Include" />
-                  <e p="PlayerRotationSystem.cs" t="Include" />
-                </e>
-                <e p="Shooting" t="Include">
-                  <e p="IShootingInputControl.cs" t="Include" />
-                  <e p="MouseShootingInputControl.cs" t="Include" />
-                  <e p="PlayerShootingSystem.cs" t="Include" />
-                </e>
-              </e>
-            </e>
             <e p="Scripts" t="Include">
+              <e p="DamageRecipient.cs" t="Include" />
               <e p="Health.cs" t="Include" />
+              <e p="IHealth.cs" t="Include" />
             </e>
           </e>
           <e p="Helpers" t="Include">
             <e p="Scripts" t="Include">
               <e p="PoolMono.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Player" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Aiming" t="Include">
+                <e p="IAimingInputControl.cs" t="Include" />
+                <e p="MouseAimingInputControl.cs" t="Include" />
+                <e p="PlayerAimingSystem.cs" t="Include" />
+              </e>
+              <e p="Gazing" t="Include">
+                <e p="PlayerGazingSystem.cs" t="Include" />
+              </e>
+              <e p="Jumping" t="Include">
+                <e p="IJumpingInputControl.cs" t="Include" />
+                <e p="KeyboardJumpingInputControl.cs" t="Include" />
+                <e p="PlayerJumpingSystem.cs" t="Include" />
+              </e>
+              <e p="Movement" t="Include">
+                <e p="IMovementInputControl.cs" t="Include" />
+                <e p="KeyboardMovementInputControl.cs" t="Include" />
+                <e p="PlayerMovementSystem.cs" t="Include" />
+              </e>
+              <e p="Rotation" t="Include">
+                <e p="IRotationInputControl.cs" t="Include" />
+                <e p="MouseRotationInputControl.cs" t="Include" />
+                <e p="PlayerRotationSystem.cs" t="Include" />
+              </e>
+              <e p="Shooting" t="Include">
+                <e p="IShootingInputControl.cs" t="Include" />
+                <e p="MouseShootingInputControl.cs" t="Include" />
+                <e p="PlayerShootingSystem.cs" t="Include" />
+              </e>
             </e>
           </e>
           <e p="Scripts" t="Include">
@@ -57,18 +61,24 @@
             <e p="IDamageRecipient.cs" t="Include" />
           </e>
           <e p="Weapons" t="Include">
+            <e p="Crosshairs" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="CrosshairChangerOnHit.cs" t="Include" />
+                <e p="CrosshairChangerOnPoint.cs" t="Include" />
+                <e p="ICrosshairChanger.cs" t="Include" />
+              </e>
+            </e>
             <e p="Materials" t="Include">
               <e p="UnlitVertexColour_Alpha.shader" t="Include" />
             </e>
             <e p="Scripts" t="Include">
-              <e p="Bullet.cs" t="Include" />
               <e p="IHitEffect.cs" t="Include" />
               <e p="IShootEffect.cs" t="Include" />
-              <e p="IWeaponAnimation.cs" t="Include" />
-              <e p="Weapon.cs" t="Include" />
-              <e p="WeaponAnimation.cs" t="Include" />
+              <e p="IWeaponShootAnimation.cs" t="Include" />
               <e p="WeaponCrosshair.cs" t="Include" />
               <e p="WeaponHitEffect.cs" t="Include" />
+              <e p="WeaponManager.cs" t="Include" />
+              <e p="WeaponShootAnimation.cs" t="Include" />
               <e p="WeaponShootEffect.cs" t="Include" />
             </e>
           </e>

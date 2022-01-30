@@ -1,25 +1,22 @@
-﻿using System;
-using Game.Helpers.Scripts;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Game.Weapons.Scripts
 {
     public class WeaponHitEffect: MonoBehaviour, IHitEffect
     {
-        [SerializeField] private Transform _bulletContainer;
-
-        private PoolMono<Bullet> _bulletPool;
+        [SerializeField] private ParticleSystem _bulletExplosionParticle;
+        private Transform _transformBulletExplosion;
 
         private void Awake()
         {
-            var bullet = Resources.Load<Bullet>("Bullet");
-            _bulletPool = new PoolMono<Bullet>(bullet, 2, _bulletContainer);
+            _transformBulletExplosion = _bulletExplosionParticle.GetComponent<Transform>();
         }
 
         public void Show(Vector3 position, Quaternion rotation)
         {
-            var bullet = _bulletPool.GetFreeElement();
-            bullet.Explode(position, rotation);
+            _transformBulletExplosion.position = position;
+            _transformBulletExplosion.rotation = rotation;
+            _bulletExplosionParticle.Play();
         }
     }
 }

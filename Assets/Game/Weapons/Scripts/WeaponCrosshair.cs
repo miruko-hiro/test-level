@@ -1,50 +1,41 @@
 ﻿using System;
+using Game.Player.Scripts.Gazing;
+using Game.Scripts;
+using Game.Weapons.Crosshairs.Scripts;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace Game.Weapons.Scripts
 {
     public class WeaponCrosshair : MonoBehaviour
     {
-        [SerializeField] private Camera _mainCamera;
-        [SerializeField] private Image _crosshair;
-        [SerializeField] private Color _default;
-        [SerializeField] private Color _enemy;
-        [SerializeField][Min(1f)] private float _weaponRange = 500f;
-        
-        private int _enemyLayerIndex;
+        [SerializeField] private PlayerGazingSystem _playerGazingSystem;
+
+        private ICrosshairChanger _crosshairChangerOnPoint;
 
         private void Awake()
         {
-            _enemyLayerIndex = LayerMask.GetMask("Enemy");
+            _crosshairChangerOnPoint = GetComponentInChildren<CrosshairChangerOnPoint>();
+            _playerGazingSystem.EventHitIntoSomething += ChangeCrosshairToEnemy;
+            _playerGazingSystem.EventHitIntoNothing += ChangeCrosshairToDefault;
         }
 
-        private void Update()
+        private void ChangeCrosshairToEnemy(RaycastHit hit)
         {
-            if (Check()) ChangeColorToEnemy();
-            else ChangeColorToDefault();
+            if (hit.transform.GetComponent<IDamageRecipient>() != null)
+                _crosshairChangerOnPoint.Change();
+            else
+                _crosshairChangerOnPoint.UndoChange();
         }
 
-        private bool Check()
+        private void ChangeCrosshairToDefault()
         {
-            var rayOrigin = _mainCamera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0.0f));
-            return Physics.Raycast(rayOrigin, _mainCamera.transform.forward, _weaponRange, _enemyLayerIndex);
+            _crosshairChangerOnPoint.UndoChange();
         }
 
-        private void ChangeColorToEnemy()
+        private void OnDestroy()
         {
-            if (_crosshair.color != _enemy)
-            {
-                _crosshair.color = _enemy;
-            }
-        }
-
-        private void ChangeColorToDefault()
-        {
-            if (_crosshair.color != _default)
-            {
-                _crosshair.color = _default;
-            }
+            _playerGazingSystem.EventHitIntoSomething -= ChangeCrosshairToEnemy;
+            _playerGazingSystem.EventHitIntoNothing -= ChangeCrosshairToDefault;
         }
     }
 }

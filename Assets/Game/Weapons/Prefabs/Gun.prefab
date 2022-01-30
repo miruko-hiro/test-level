@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 5556564984880969043}
   - component: {fileID: 8984760176822039360}
   - component: {fileID: 4433713844785277541}
+  - component: {fileID: 847974724836490820}
+  - component: {fileID: 7975489875212404091}
   - component: {fileID: 250693605140484261}
   - component: {fileID: 2638638552758133871}
   - component: {fileID: 5027267724830371309}
@@ -51,12 +53,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd074a5d55fa47b4af6120bf3ea1e382, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerShootingSystem: {fileID: 0}
   _timeBetweenShots: 2
   _damage: 1
-  _weaponRange: 500
-  _crosshair: {fileID: 0}
-  _defaultCrosshair: {fileID: 4765050598704700448, guid: 51d2ac7b128920941a36d7ffd3712759, type: 3}
-  _hitCrosshair: {fileID: 7284284602892693726, guid: 51d2ac7b128920941a36d7ffd3712759, type: 3}
 --- !u!114 &8219776960051539132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,11 +68,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c4591ae356f451f83c0e2ef916a4ef5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mainCamera: {fileID: 0}
-  _crosshair: {fileID: 0}
-  _default: {r: 1, g: 0, b: 0, a: 1}
-  _enemy: {r: 1, g: 0.9843137, b: 0, a: 1}
-  _weaponRange: 500
+  _playerGazingSystem: {fileID: 0}
 --- !u!114 &5556564984880969043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,7 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 765cb0ae8ead4fd492f1e2f8e7bdc71e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bulletContainer: {fileID: 0}
+  _bulletExplosionParticle: {fileID: 0}
 --- !u!114 &8984760176822039360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5315f609c9d412b9cf5f9e265179962, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _flashShoot: {fileID: 2035405574591380602}
+  _flashShootParticle: {fileID: 2035405574591380602}
 --- !u!114 &4433713844785277541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,6 +107,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d4953e2b3ac40b68cb8d9aaada7f4c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &847974724836490820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4584294678427534778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a07bc415188c4ba9a94908e449b5bc53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _crosshair: {fileID: 0}
+  _defaultColor: {r: 1, g: 0, b: 0, a: 1}
+  _enemyColor: {r: 1, g: 0.98475426, b: 0, a: 1}
+--- !u!114 &7975489875212404091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4584294678427534778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d74fab2060f4c2e95f7eacdd30a3a61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hitCrosshair: {fileID: 0}
 --- !u!33 &250693605140484261
 MeshFilter:
   m_ObjectHideFlags: 0
