@@ -20,15 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb824690-939a-4a81-87ba-865ed8e61500" name="Default Changelist" comment="Добавлен компнент здоровье и урон, возможность стрельбы, эффекты попадания пули и пороховых газов от стрельбы">
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Animations/KayKit Animated Character_Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Animations/KayKit Animated Character_Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Animations/KayKit Animated Character_Walk.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Animations/KayKit Animated Character_Walk.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Prefabs/Enemy Agent.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Prefabs/Enemy Agent.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementAnimation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementAnimation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/IMovementAnimation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/IMovementAnimation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/IMovementStopper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/IMovementStopper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/NavMesh.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/NavMesh.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestLevel/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestLevel/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestLevel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestLevel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Animations/Animated Character_Defeat.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Animations/Animated Character_Defeat.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Animations/Character Animator Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Animations/Character Animator Controller.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Prefabs/Enemy Type 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Prefabs/Enemy Type 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Scripts/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Prefabs/Tile Large Forest.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Prefabs/Tile Large Forest.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Prefabs/Tile Low Forest.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Prefabs/Tile Low Forest.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Prefabs/Tile Small Forest.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Prefabs/Tile Small Forest.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/FlashShoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/IHitEffect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Bullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/IWeaponAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Characters/Player/Scripts/Shooting/MouseShootingInputControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Characters/Player/Scripts/Aiming/Aim.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Characters/Player/Scripts/Aiming/IAimingInputControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Characters/Player/Scripts/Aiming/MouseAimingInputControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponHitEffect.cs" />
@@ -99,9 +106,16 @@
         <option value="$PROJECT_DIR$/Assets/Game/Characters/Scripts/DamageRecipient.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Characters/Scripts/IHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Shaders/WallhackShader.shader" />
         <option value="$PROJECT_DIR$/Assets/Game/Characters/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/IMovementSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/IMovementStopper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/EnemyMovementSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/IMovementStopper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/IMovementAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementSystem.cs" />
       </list>
     </option>
   </component>
@@ -152,7 +166,7 @@
       <workItem from="1643443703387" duration="4333000" />
       <workItem from="1643450291300" duration="65000" />
       <workItem from="1643474026631" duration="13268000" />
-      <workItem from="1643535021742" duration="19160000" />
+      <workItem from="1643535021742" duration="24410000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1643285185504</created>
@@ -189,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643553787186</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Добавлены дизайн-объекты уровня.">
+      <created>1643579181729</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643579181729</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,17 +237,18 @@
     <MESSAGE value="Добавлен компнент здоровье и урон, возможность стрельбы, эффекты попадания пули и пороховых газов от стрельбы" />
     <MESSAGE value="Добавлено прицеливание. Изменен вид эффектов разбивания пуль и вспышки от выстрела. Добавлен прицел, его изменение цвета при наведение на противника и изменение вида прицела при попадании по противнику." />
     <MESSAGE value="Добавлен эффект смерти врага. Причесан код." />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен эффект смерти врага. Причесан код." />
+    <MESSAGE value="Добавлены дизайн-объекты уровня." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены дизайн-объекты уровня." />
   </component>
   <component name="WindowStateProjectService">
     <state x="794" y="220" key="RiderGenerateDialog" timestamp="1643552921497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="220" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1643552921497" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1643553790955">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1643579183873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1643553790955" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1643579183873" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1643479391886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
