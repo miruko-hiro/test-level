@@ -1,6 +1,5 @@
 using System.Collections;
 using Game.Characters.Scripts;
-using Game.Scripts;
 using UnityEngine;
 
 namespace Game.Characters.Enemies.Scripts

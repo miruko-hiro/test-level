@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4042181485302512313}
   - component: {fileID: 2304789595856637555}
   - component: {fileID: 2743010250691859261}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile Small Forest
   m_TagString: Untagged
   m_Icon: {fileID: 0}

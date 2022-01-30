@@ -21,7 +21,6 @@ namespace Game.Characters.Scripts
 
         private void Hit(int damage)
         {
-            Debug.Log("_amountOfHealth " + _amountOfHealth + " damage " + damage);
             _amountOfHealth -= damage;
             if(_amountOfHealth <= 0) EventDeath?.Invoke();
         }
