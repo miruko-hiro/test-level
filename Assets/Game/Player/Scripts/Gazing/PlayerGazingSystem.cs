@@ -1,4 +1,5 @@
 using System;
+using Game.Scripts;
 using UnityEngine;
 
 namespace Game.Player.Scripts.Gazing
@@ -12,6 +13,7 @@ namespace Game.Player.Scripts.Gazing
 
         private Transform _transformMainCamera;
         private int _layerIndexesToFind;
+        public StateGame StateGame { get; set; } = StateGame.Pause;
 
         private void Awake()
         {
@@ -21,6 +23,8 @@ namespace Game.Player.Scripts.Gazing
 
         private void Update()
         {
+            if(StateGame == StateGame.Pause) return;
+            
             See();
         }
 

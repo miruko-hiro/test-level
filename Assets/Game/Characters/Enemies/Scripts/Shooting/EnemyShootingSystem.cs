@@ -24,9 +24,10 @@ namespace Game.Characters.Enemies.Scripts.Shooting
         private Transform _transform;
         private float _nextFire;
 
-        private void Awake()
+        public override void Initialize()
         {
             _animation = GetComponent<EnemyShootingAnimation>();
+            _animation.Initialize();
             _transform = GetComponent<Transform>();
             _enemyGazingSystem = GetComponent<EnemyGazingSystem>();
             _enemyRotationSystem = GetComponent<EnemyRotationSystem>();

@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using Game.Characters.Enemies.Scripts.Movement;
-using Game.Characters.Scripts;
+using Game.Scripts;
 using UnityEngine;
 
 namespace Game.Characters.Enemies.Scripts
@@ -38,7 +38,7 @@ namespace Game.Characters.Enemies.Scripts
             _deathEffectParticle.transform.position = transform.position;
             _deathEffectParticle.Play();
             yield return new WaitForSeconds(0.2f);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
 
         private void OnDestroy()

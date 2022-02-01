@@ -27,9 +27,13 @@ namespace Game.Scripts.UtilityAI
         private void Awake()
         {
             _actions = GetComponentsInChildren<BaseAction>().ToList();
+            foreach (var baseAction in _actions)
+            {
+                baseAction.Initialize();
+            }
         }
         
-        private void Start()
+        private void OnEnable()
         {
             StartCoroutine(SelectActionAI());
         }

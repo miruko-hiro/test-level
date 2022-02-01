@@ -29,5 +29,10 @@ namespace Game.Weapons.Scripts.Balls
             _ballThrower.ThrowBall(ball, startPosition, endPosition);
             StartCoroutine(_ballBreaker.WaitingForDeathCoroutine(ball, _lifetime));
         }
+
+        public void DisableAllBall()
+        {
+            _ballSpawner.DisableAll();
+        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System;
-using Game.Characters.Scripts;
 using Game.Player.Scripts;
+using Game.Scripts;
 using UnityEngine;
 
 namespace Game.Weapons.Scripts.Balls

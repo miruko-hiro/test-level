@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.AI;
 
 namespace Game.Characters.Enemies.Scripts.Movement
@@ -14,12 +15,14 @@ namespace Game.Characters.Enemies.Scripts.Movement
         private NavMeshAgent _agent;
         private float _remainingDistance = 0.5f;
         private int _destPoint;
+        private bool _isDeath;
 
         private void Awake()
         {
             if (_isMove)
             {
                 _movementAnimation = GetComponent<EnemyMovementAnimation>();
+                _movementAnimation.Initialize();
                 _agent = GetComponent<NavMeshAgent>();
 
                 if (_isLoopPatrol)
@@ -29,18 +32,18 @@ namespace Game.Characters.Enemies.Scripts.Movement
             }
         }
 
-        private void Start()
+        private void OnEnable()
         {
             if (_isMove)
             {
+                _agent.isStopped = false;
+                _isDeath = false;
                 _movementAnimation.Run();
-                
                 if (_isLoopPatrol)
                     GotoNextPoint();
                 else
                     GotoPoint(); 
             }
-                
         }
 
         private void GotoNextPoint() {
@@ -64,12 +67,12 @@ namespace Game.Characters.Enemies.Scripts.Movement
             {
                 _agent.isStopped = true;
                 _movementAnimation.Stop();
-                _isMove = _isLoopPatrol = false;
+                _isDeath = true;
             }
         }
         
         private void Update () {
-            if(_isMove && _isLoopPatrol) 
+            if(!_isDeath && _isMove && _isLoopPatrol) 
                 if (!_agent.pathPending && _agent.remainingDistance < _remainingDistance)
                     GotoNextPoint();
         }

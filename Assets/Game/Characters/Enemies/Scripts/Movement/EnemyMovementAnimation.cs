@@ -8,8 +8,8 @@ namespace Game.Characters.Enemies.Scripts.Movement
         private static readonly int Move = Animator.StringToHash("Move");
 
         public float AnimationTime => 1.1f;
-        
-        private void Awake()
+
+        public void Initialize()
         {
             _animator = GetComponent<Animator>();
         }

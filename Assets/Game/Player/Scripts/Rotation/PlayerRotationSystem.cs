@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Game.Scripts;
+using UnityEngine;
 
 namespace Game.Player.Scripts.Rotation
 {
@@ -13,17 +14,22 @@ namespace Game.Player.Scripts.Rotation
         private float _xRotation;
         private float _yRotation;
         private IRotationInputControl _rotationInputControl;
+        public StateGame StateGame { get; set; } = StateGame.Pause;
         
         private void Awake()
         {
             _rotationInputControl = new MouseRotationInputControl();
-
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
         }
 
         private void Update()
         {
+            if (StateGame == StateGame.Pause)
+            {
+                _xRotation = 0f;
+                _yRotation = 0f;
+                return;
+            }
+            
             Rotate();
         }
 

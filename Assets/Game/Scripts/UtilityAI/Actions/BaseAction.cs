@@ -5,6 +5,7 @@ namespace Game.Scripts.UtilityAI.Actions
 {
     public abstract class BaseAction : MonoBehaviour
     {
+        public abstract void Initialize();
         public abstract float GetScores();
         public abstract void Execute();
         public abstract void Cancel();

@@ -1,3 +1,4 @@
+using Game.Scripts;
 using UnityEngine;
 
 namespace Game.Player.Scripts.Aiming
@@ -10,6 +11,7 @@ namespace Game.Player.Scripts.Aiming
         [SerializeField] [Min(0f)] private float _smooth = 5f;
 
         private IAimingInputControl _aimingInputControl;
+        public StateGame StateGame { get; set; } = StateGame.Pause;
 
         private void Awake()
         {
@@ -18,6 +20,8 @@ namespace Game.Player.Scripts.Aiming
 
         private void Update()
         {
+            if(StateGame == StateGame.Pause) return;
+            
             Aim();
         }
 

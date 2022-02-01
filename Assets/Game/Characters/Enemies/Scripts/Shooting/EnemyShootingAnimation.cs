@@ -8,8 +8,8 @@ namespace Game.Characters.Enemies.Scripts.Shooting
         private static readonly int Shoot = Animator.StringToHash("Shoot");
 
         public float AnimationTime => 0.8f;
-        
-        private void Awake()
+
+        public void Initialize()
         {
             _animator = GetComponent<Animator>();
         }

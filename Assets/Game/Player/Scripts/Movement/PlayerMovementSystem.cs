@@ -1,6 +1,7 @@
 ﻿using System;
 using Game.Player.Scripts.Jumping;
 using Game.Player.Scripts.Sprinting;
+using Game.Scripts;
 using UnityEngine;
 
 namespace Game.Player.Scripts.Movement
@@ -29,6 +30,7 @@ namespace Game.Player.Scripts.Movement
         private IMovementInputControl _movementInputControl;
         private IJumpingInputControl _jumpingInputControl;
         private ISprintingInputControl _sprintingInputControl;
+        public StateGame StateGame { get; set; } = StateGame.Pause;
         private Transform _transform;
         private Vector3 _moveDirection;
         private bool _isGrounded;
@@ -47,6 +49,8 @@ namespace Game.Player.Scripts.Movement
 
         private void Update()
         {
+            if(StateGame == StateGame.Pause) return;
+            
             CheckGrounded();
             InputMove();
             ControlDrag();

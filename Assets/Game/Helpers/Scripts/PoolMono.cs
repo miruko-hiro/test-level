@@ -63,5 +63,13 @@ namespace Game.Helpers.Scripts
 
             throw new Exception($"There is no free elements in pool of type {typeof(T)}");
         }
+
+        public void DisableAll()
+        {
+            foreach (var element in _pool)
+            {
+                element.gameObject.SetActive(false);
+            }
+        }
     }
 }

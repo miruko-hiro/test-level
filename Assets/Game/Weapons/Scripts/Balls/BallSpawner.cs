@@ -17,5 +17,10 @@ namespace Game.Weapons.Scripts.Balls
         {
             return _ballPool.GetFreeElement();
         }
+
+        public void DisableAll()
+        {
+            _ballPool.DisableAll();
+        }
     }
 }
