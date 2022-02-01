@@ -9,11 +9,21 @@
             <e p="Enemies" t="Include">
               <e p="Scripts" t="Include">
                 <e p="Enemy.cs" t="Include" />
+                <e p="Gazing" t="Include">
+                  <e p="EnemyGazingSystem.cs" t="Include" />
+                </e>
+                <e p="IAnimation.cs" t="Include" />
                 <e p="Movement" t="Include">
                   <e p="EnemyMovementAnimation.cs" t="Include" />
                   <e p="EnemyMovementSystem.cs" t="Include" />
-                  <e p="IMovementAnimation.cs" t="Include" />
                   <e p="IMovementStopper.cs" t="Include" />
+                </e>
+                <e p="Rotation" t="Include">
+                  <e p="EnemyRotationSystem.cs" t="Include" />
+                </e>
+                <e p="Shooting" t="Include">
+                  <e p="EnemyShootingAnimation.cs" t="Include" />
+                  <e p="EnemyShootingSystem.cs" t="Include" />
                 </e>
               </e>
               <e p="Shaders" t="Include">
@@ -41,16 +51,18 @@
               <e p="Gazing" t="Include">
                 <e p="PlayerGazingSystem.cs" t="Include" />
               </e>
+              <e p="ITarget.cs" t="Include" />
               <e p="Jumping" t="Include">
                 <e p="IJumpingInputControl.cs" t="Include" />
                 <e p="KeyboardJumpingInputControl.cs" t="Include" />
-                <e p="PlayerJumpingSystem.cs" t="Include" />
               </e>
+              <e p="MoveCamera.cs" t="Include" />
               <e p="Movement" t="Include">
                 <e p="IMovementInputControl.cs" t="Include" />
                 <e p="KeyboardMovementInputControl.cs" t="Include" />
                 <e p="PlayerMovementSystem.cs" t="Include" />
               </e>
+              <e p="PlayerTarget.cs" t="Include" />
               <e p="Rotation" t="Include">
                 <e p="IRotationInputControl.cs" t="Include" />
                 <e p="MouseRotationInputControl.cs" t="Include" />
@@ -61,6 +73,10 @@
                 <e p="MouseShootingInputControl.cs" t="Include" />
                 <e p="PlayerShootingSystem.cs" t="Include" />
               </e>
+              <e p="Sprinting" t="Include">
+                <e p="ISprintingInputControl.cs" t="Include" />
+                <e p="KeyboardSprintingInputControl.cs" t="Include" />
+              </e>
             </e>
           </e>
           <e p="Scripts" t="Include">
@@ -68,6 +84,18 @@
             <e p="Health.cs" t="Include" />
             <e p="IDamage.cs" t="Include" />
             <e p="IDamageRecipient.cs" t="Include" />
+            <e p="UtilityAI" t="Include">
+              <e p="Actions" t="Include">
+                <e p="BaseAction.cs" t="Include" />
+              </e>
+              <e p="AI.cs" t="Include" />
+              <e p="ScoreKeeper.cs" t="Include" />
+              <e p="Scorers" t="Include">
+                <e p="BaseScorer.cs" t="Include" />
+                <e p="DistanceToDynamicPositionScorer.cs" t="Include" />
+                <e p="TakingDamageScorer.cs" t="Include" />
+              </e>
+            </e>
           </e>
           <e p="Weapons" t="Include">
             <e p="Crosshairs" t="Include">
@@ -78,9 +106,20 @@
               </e>
             </e>
             <e p="Materials" t="Include">
-              <e p="UnlitVertexColour_Alpha.shader" t="Include" />
+              <e p="Graphic" t="Include">
+                <e p="UnlitVertexColour_Alpha.shader" t="Include" />
+              </e>
             </e>
             <e p="Scripts" t="Include">
+              <e p="Balls" t="Include">
+                <e p="Ball.cs" t="Include" />
+                <e p="BallBreaker.cs" t="Include" />
+                <e p="BallDeathParticle.cs" t="Include" />
+                <e p="BallManager.cs" t="Include" />
+                <e p="BallSpawner.cs" t="Include" />
+                <e p="BallThrower.cs" t="Include" />
+                <e p="IBall.cs" t="Include" />
+              </e>
               <e p="IHitEffect.cs" t="Include" />
               <e p="IShootEffect.cs" t="Include" />
               <e p="IWeaponShootAnimation.cs" t="Include" />
@@ -89,6 +128,7 @@
               <e p="WeaponManager.cs" t="Include" />
               <e p="WeaponShootAnimation.cs" t="Include" />
               <e p="WeaponShootEffect.cs" t="Include" />
+              <e p="WeaponSway.cs" t="Include" />
             </e>
           </e>
         </e>

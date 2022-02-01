@@ -6,7 +6,7 @@ namespace Game.Player.Scripts.Movement
     {
         public (float, float) CurrentInput()
         {
-            return (Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+            return (Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         }
     }
 }

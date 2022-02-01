@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8080622503062798196}
   - component: {fileID: 8083104827519254090}
   m_Layer: 0
-  m_Name: FlashShoot
+  m_Name: Flash Shoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

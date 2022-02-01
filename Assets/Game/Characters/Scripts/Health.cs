@@ -9,14 +9,21 @@ namespace Game.Characters.Scripts
         public event Action EventDeath;
         
         [SerializeField][Min(1)] private int _amountOfHealth = 1;
-
+        private int _maxHealth;
+        
         private void Awake()
         {
+            _maxHealth = _amountOfHealth;
             var damageRecipients = GetComponentsInChildren<IDamageRecipient>();
             foreach (var damageRecipient in damageRecipients)
             {
                 damageRecipient.EventHit += Hit;
             }
+        }
+
+        private void OnEnable()
+        {
+            _amountOfHealth = _maxHealth;
         }
 
         private void Hit(int damage)

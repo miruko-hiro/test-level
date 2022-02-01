@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4040137519649838118}
   m_Layer: 0
-  m_Name: Enemy Agent
+  m_Name: Enemy Agent Type A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -222,7 +222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7825287829634043749, guid: aca6882dcc0f0fa498d98a4cfcf8ba8d, type: 3}
       propertyPath: m_Name
-      value: Enemy Type 1
+      value: Enemy Type A
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aca6882dcc0f0fa498d98a4cfcf8ba8d, type: 3}

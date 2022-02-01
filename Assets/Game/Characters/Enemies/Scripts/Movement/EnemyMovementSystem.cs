@@ -10,7 +10,7 @@ namespace Game.Characters.Enemies.Scripts.Movement
         [SerializeField] private bool _isMove = true;
         [SerializeField] private bool _isLoopPatrol = true;
 
-        private IMovementAnimation _movementAnimation;
+        private IAnimation _movementAnimation;
         private NavMeshAgent _agent;
         private float _remainingDistance = 0.5f;
         private int _destPoint;
