@@ -20,74 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb824690-939a-4a81-87ba-865ed8e61500" name="Default Changelist" comment="Добавлен компнент здоровье и урон, возможность стрельбы, эффекты попадания пули и пороховых газов от стрельбы">
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Helpers/Scripts/ExitHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Helpers/Scripts/ExitHelper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Helpers/Scripts/GameStateHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Helpers/Scripts/GameStateHelper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/CameraSwitch.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/CameraSwitch.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Configs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Configs/TestLevelConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Configs/TestLevelConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/CursorState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/CursorState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameRestarter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameRestarter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/LossChecker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/LossChecker.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/PanelSwitch.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/PanelSwitch.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/StateGame.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/StateGame.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/FirstPerson.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/FirstPerson/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/FirstPerson/Scripts/FirstPersonCamera.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/FirstPerson/Scripts/FirstPersonCamera.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/FirstPerson/Scripts/FirstPersonPanel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/FirstPerson/Scripts/FirstPersonPanel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenu.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenuPanel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenuPanel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MainMenuPanel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MainMenuPanel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MessagePanel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MessagePanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Animation/Spike Roller Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Animation/Spike Roller Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Animation/Swiper Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Animation/Swiper Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameSessionLog.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameSessionLog.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/IMenuInputControl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/IMenuInputControl.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/KeyboardMenuInputControl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/KeyboardMenuInputControl.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/MenuCallChecker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/MenuCallChecker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/PauseMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/PauseMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/PauseMenuPanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/PauseMenuPanel.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestLevel/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestLevel/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestLevel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestLevel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Prefabs/Enemy Type A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Prefabs/Enemy Type A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/IAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/IAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Shooting/EnemyShootingAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Shooting/EnemyShootingAnimation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Shooting/EnemyShootingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Shooting/EnemyShootingSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Scripts/DamageRecipient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/DamageRecipient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Scripts/DamageRecipient.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/DamageRecipient.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Scripts/Health.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Scripts/Health.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Scripts/IHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/IHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Scripts/IHealth.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/IHealth.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Helpers/Scripts/PoolMono.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Helpers/Scripts/PoolMono.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Aiming/PlayerAimingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Aiming/PlayerAimingSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Gazing/PlayerGazingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Gazing/PlayerGazingSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Movement/PlayerMovementSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Movement/PlayerMovementSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Rotation/PlayerRotationSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Rotation/PlayerRotationSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Prefabs/Spike Roller.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Prefabs/Spike Roller.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Prefabs/Swiper Blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Prefabs/Swiper Blue.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Shooting/PlayerShootingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Shooting/PlayerShootingSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Health.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Health.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Configs/Resources/TestLevelConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Configs/Resources/TestLevelConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/PanelSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/PanelSwitch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/DamageRecipient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/DamageRecipient.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/AI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/AI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/Actions/BaseAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/Actions/BaseAction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Resources/Ball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Weapons/Resources/Ball.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/Ball.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +68,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Game/Player/Scripts/MoveCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0EE48075-9F3D-481D-82AD-A245DC74F9FD/d2/0f0e1f39/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Unity/TestLevel/Assets/Game/Scripts/UtilityAI/AI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/IDamageRecipient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMPro_Private.cs" root0="SKIP_HIGHLIGHTING" />
@@ -116,14 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Game/UI/Scripts/MainMenu/MenuCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/NobleMenu/UIERuntime/Runtime/InternalBridge/InternalBridge.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Helpers/Scripts/ExitHelper.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Helpers/Scripts/GameStateHelper.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/StateGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Player/Scripts/Aiming/PlayerAimingSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Player/Scripts/Movement/PlayerMovementSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Player/Scripts/Gazing/PlayerGazingSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/CursorState.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameState.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/FirstPersonCamera.cs" />
@@ -140,14 +97,11 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/CameraSwitch.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/UI/FirstPerson/Scripts/FirstPersonCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/UI/FirstPerson/Scripts/FirstPersonPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/DamageRecipient.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/IHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/EnemyTarget.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenuPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/LossChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/IAnimation.cs" />
@@ -155,18 +109,29 @@
         <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Helpers/Scripts/PoolMono.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/F.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/FinishTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/PanelSwitch.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MessagePanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/Configs/TestLevelConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameRestarter.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Player/Scripts/Rotation/PlayerRotationSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/Actions/BaseAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Shooting/EnemyShootingSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/AI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Shooting/EnemyShootingSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/PauseMenuPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/PanelSwitch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/IMenuInputControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/MenuCallChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/KeyboardMenuInputControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/LossChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Player/Scripts/Shooting/PlayerShootingSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/DamageRecipient.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameSessionLog.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -219,7 +184,9 @@
       <workItem from="1643474026631" duration="13268000" />
       <workItem from="1643535021742" duration="24470000" />
       <workItem from="1643622583128" duration="28358000" />
-      <workItem from="1643700394250" duration="36035000" />
+      <workItem from="1643700394250" duration="36356000" />
+      <workItem from="1643792673291" duration="3907000" />
+      <workItem from="1643808144293" duration="6746000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1643285185504</created>
@@ -277,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643713694040</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Добавлено меню и пролет начальной камеры над уровнем. Добавлены меню проигрыша и выигрыша. Добавлена возможность начать уровень сначала. Добавлен проигрыш - падение вниз с уровня и выигрыш - добраться до финиша.">
+      <created>1643753090597</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643753090597</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,24 +281,25 @@
     <MESSAGE value="Добавлены дизайн-объекты уровня." />
     <MESSAGE value="Добавлены NavMesh, система перемещения противника, анимация ходьбы противника." />
     <MESSAGE value="Добавлено поведение врагов - стрельба шарами по игроку через UtilityAI и уровень агрессивности. Добавлено отбрасывание игрока при попадании в него шаром. Добавлен взрыв шара через определенно время и ударная волная от взрыва по игроку. Добавлена возможность уничтожить шар до взрыва. Добавлен поворот врагов к персонажу во время агрессивности." />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлено поведение врагов - стрельба шарами по игроку через UtilityAI и уровень агрессивности. Добавлено отбрасывание игрока при попадании в него шаром. Добавлен взрыв шара через определенно время и ударная волная от взрыва по игроку. Добавлена возможность уничтожить шар до взрыва. Добавлен поворот врагов к персонажу во время агрессивности." />
+    <MESSAGE value="Добавлено меню и пролет начальной камеры над уровнем. Добавлены меню проигрыша и выигрыша. Добавлена возможность начать уровень сначала. Добавлен проигрыш - падение вниз с уровня и выигрыш - добраться до финиша." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлено меню и пролет начальной камеры над уровнем. Добавлены меню проигрыша и выигрыша. Добавлена возможность начать уровень сначала. Добавлен проигрыш - падение вниз с уровня и выигрыш - добраться до финиша." />
   </component>
   <component name="WindowStateProjectService">
     <state x="794" y="220" key="RiderGenerateDialog" timestamp="1643648452186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="220" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1643648452186" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1643713698105">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1643753097293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1643713698105" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1643753097293" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1643746340656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1643746340656" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1643724671448">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1643813880816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1643724671448" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1643813880816" />
   </component>
 </project>

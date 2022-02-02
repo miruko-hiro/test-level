@@ -3,14 +3,14 @@ using UnityEngine;
 
 namespace Game.UI.Menu.Scripts
 {
-    public class GameMenu: MonoBehaviour
+    public class PauseMenu : MonoBehaviour
     {
-        public event Action EventPlayGame;
+        public event Action EventContinueGame;
         public event Action EventExitGame;
         
-        public void OnPlay()
+        public void OnContinue()
         {
-            EventPlayGame?.Invoke();
+            EventContinueGame?.Invoke();
         }
 
         public void OnSettings()

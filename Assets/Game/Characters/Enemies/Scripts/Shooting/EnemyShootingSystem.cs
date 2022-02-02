@@ -68,5 +68,9 @@ namespace Game.Characters.Enemies.Scripts.Shooting
             return isShooting;
         }
 
+        private void OnDisable()
+        {
+            StopAllCoroutines();
+        }
     }
 }

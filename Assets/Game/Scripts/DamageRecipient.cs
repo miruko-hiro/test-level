@@ -11,6 +11,7 @@ namespace Game.Scripts
 
         public void Hit(int damage)
         {
+            Debug.Log("Hitting an agent.");
             EventHit?.Invoke(damage * _damageMultiplier);
         }
     }

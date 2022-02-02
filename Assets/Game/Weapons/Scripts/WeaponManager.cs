@@ -31,6 +31,7 @@ namespace Game.Weapons.Scripts
         private void ShootHit(RaycastHit raycastHit)
         {
             if (!CheckShooting()) return;
+            Debug.Log("Shot.");
             
             var damageRecipient = raycastHit.collider.GetComponent<IDamageRecipient>();
             if (damageRecipient != null)
@@ -46,6 +47,8 @@ namespace Game.Weapons.Scripts
         private void ShootMissed()
         {
             if (!CheckShooting()) return;
+            Debug.Log("Shot.");
+            
             ShootEffect();
         }
 

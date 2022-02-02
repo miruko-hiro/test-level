@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Game.Scripts.UtilityAI.Actions;
@@ -16,12 +17,7 @@ namespace Game.Scripts.UtilityAI
         public bool IsEnable
         {
             get => _isEnable;
-            set
-            {
-                if(_isEnable && value) return;
-                _isEnable = value;
-                if(_isEnable) StartCoroutine(SelectActionAI());
-            }
+            set => _isEnable = value;
         }
 
         private void Awake()
@@ -70,6 +66,11 @@ namespace Game.Scripts.UtilityAI
             {
                 action.Cancel();
             }
+        }
+
+        private void OnDisable()
+        {
+            StopAllCoroutines();
         }
     }
 }

@@ -23,14 +23,18 @@ namespace Game.Player.Scripts.Shooting
 
         private void ShootHit(RaycastHit raycastHit)
         {
-            if (_shootingInputControl.CurrentInput()) 
+            if (_shootingInputControl.CurrentInput())
+            {
                 EventShootHit?.Invoke(raycastHit);
+            }
         }
 
         private void ShootMissed()
         {
-            if (_shootingInputControl.CurrentInput()) 
+            if (_shootingInputControl.CurrentInput())
+            {
                 EventShootMissed?.Invoke();
+            }
         }
 
         private void OnDestroy()

@@ -32,6 +32,7 @@ namespace Game.Weapons.Scripts.Balls
 
         public void DisableAllBall()
         {
+            StopAllCoroutines();
             _ballSpawner.DisableAll();
         }
     }

@@ -94,8 +94,12 @@
               <e p="CursorState.cs" t="Include" />
               <e p="GameManager.cs" t="Include" />
               <e p="GameRestarter.cs" t="Include" />
+              <e p="GameSessionLog.cs" t="Include" />
               <e p="GameState.cs" t="Include" />
+              <e p="IMenuInputControl.cs" t="Include" />
+              <e p="KeyboardMenuInputControl.cs" t="Include" />
               <e p="LossChecker.cs" t="Include" />
+              <e p="MenuCallChecker.cs" t="Include" />
               <e p="PanelSwitch.cs" t="Include" />
             </e>
             <e p="DamageRecipient.cs" t="Include" />
@@ -133,6 +137,8 @@
                 <e p="MainMenuPanel.cs" t="Include" />
                 <e p="MenuCamera.cs" t="Include" />
                 <e p="MessagePanel.cs" t="Include" />
+                <e p="PauseMenu.cs" t="Include" />
+                <e p="PauseMenuPanel.cs" t="Include" />
               </e>
             </e>
             <e p="UI.asmdef" t="Include" />
