@@ -20,38 +20,265 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb824690-939a-4a81-87ba-865ed8e61500" name="Default Changelist" comment="Добавлен компнент здоровье и урон, возможность стрельбы, эффекты попадания пули и пороховых газов от стрельбы">
-      <change afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Animation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Animation/Spike Roller Animation.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Animation/Spike Roller Animation.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Animation/Swiper Animation.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Animation/Swiper Animation.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameSessionLog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameSessionLog.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/IMenuInputControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/IMenuInputControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/KeyboardMenuInputControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/KeyboardMenuInputControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/MenuCallChecker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/MenuCallChecker.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/PauseMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/PauseMenu.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/PauseMenuPanel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/PauseMenuPanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Cameras.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/DataStorage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/DataStorage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/TimerManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/TimerManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Weapons/IWeaponShooter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Weapons/IWeaponShooter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Weapons/WeaponShooter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Weapons/WeaponShooter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/FirstPerson/Stopwatch.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/FirstPerson/Stopwatch/TimerBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/FirstPerson/Stopwatch/TimerBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/Menu/Game.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/Menu/Game/Message.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/Menu/Game/Message/IMessagePanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/Menu/Game/Message/IMessagePanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/Menu/Game/Message/MessagePanelModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/Menu/Game/Message/MessagePanelModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/Menu/Game/Message/MessagePanelPresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/Menu/Game/Message/MessagePanelPresenter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/Menu/Main.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/Menu/Pause.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestLevel/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestLevel/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestLevel/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestLevel/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestLevel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestLevel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Shooting/EnemyShootingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Shooting/EnemyShootingSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Prefabs/Spike Roller.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Prefabs/Spike Roller.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Prefabs/Swiper Blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/LevelBuilder/Prefabs/Swiper Blue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Shooting/PlayerShootingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Shooting/PlayerShootingSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Prefabs/Enemy Type A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Prefabs/Enemy Type A.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Prefabs/Enemy Type B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Prefabs/Enemy Type B.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Prefabs/Enemy Type C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Prefabs/Enemy Type C.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Enemy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Enemy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/EnemyTarget.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/EnemyTarget.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Gazing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Gazing/EnemyGazingSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Gazing/EnemyGazingSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/IAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/IAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/IMovementStopper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/IMovementStopper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Rotation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Rotation/EnemyRotationSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Rotation/EnemyRotationSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Shooting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Shooting/EnemyShootingAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Shooting/EnemyShootingAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Shooting/EnemyShootingSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Shooting/EnemyShootingSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Shaders/WallhackShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Shaders/WallhackShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Fonts/Teenidle SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Fonts/Teenidle SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Fonts/Teenidle.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Fonts/Teenidle.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Helpers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Helpers/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Helpers/Scripts/ExitHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Helpers/Scripts/ExitHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Helpers/Scripts/GameStateHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Helpers/Scripts/GameStateHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Helpers/Scripts/PoolMono.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Helpers/Scripts/PoolMono.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Aiming.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Aiming/IAimingInputControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Aiming/IAimingInputControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Aiming/MouseAimingInputControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Aiming/MouseAimingInputControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Aiming/PlayerAimingSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Aiming/PlayerAimingSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Gazing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Gazing/PlayerGazingSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Gazing/PlayerGazingSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/ITarget.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/ITarget.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Jumping.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Jumping/IJumpingInputControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Jumping/IJumpingInputControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Jumping/KeyboardJumpingInputControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Jumping/KeyboardJumpingInputControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/MoveCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/MoveCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Movement.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Movement/IMovementInputControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Movement/IMovementInputControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Movement/KeyboardMovementInputControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Movement/KeyboardMovementInputControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Movement/PlayerMovementSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Movement/PlayerMovementSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/PlayerTarget.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/PlayerTarget.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Rotation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Rotation/IRotationInputControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Rotation/IRotationInputControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Rotation/MouseRotationInputControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Rotation/MouseRotationInputControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Rotation/PlayerRotationSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Rotation/PlayerRotationSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Shooting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Shooting/IShootingInputControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Shooting/IShootingInputControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Shooting/MouseShootingInputControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Shooting/MouseShootingInputControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Shooting/PlayerShootingSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Shooting/PlayerShootingSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Sprinting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Sprinting/ISprintingInputControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Sprinting/ISprintingInputControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Sprinting/KeyboardSprintingInputControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player/Scripts/Sprinting/KeyboardSprintingInputControl.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Configs/Resources/TestLevelConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Configs/Resources/TestLevelConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/PanelSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/PanelSwitch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/DamageRecipient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/DamageRecipient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/AI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/AI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/CollisionDamage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/CollisionDamage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/CameraSwitch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/CameraSwitch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Configs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Configs/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Configs/Resources/TestLevelConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Configs/Resources/TestLevelConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Configs/TestLevelConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Configs/TestLevelConfig.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/CursorState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/CursorState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameRestarter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameRestarter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameSessionLog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameSessionLog.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/IMenuInputControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/IMenuInputControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/KeyboardMenuInputControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/KeyboardMenuInputControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/LossChecker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/LossChecker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/MenuCallChecker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/MenuCallChecker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/PanelSwitch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/PanelSwitch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/DamageRecipient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/DamageRecipient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/FinishTrigger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/FinishTrigger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Health.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Health.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/IDamage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/IDamage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/IDamageRecipient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/IDamageRecipient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/IHealth.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/IHealth.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/StateGame.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/StateGame.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/AI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/AI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/Actions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/Actions/BaseAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/Actions/BaseAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/ScoreKeeper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/ScoreKeeper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/Scorers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/Scorers/BaseScorer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/Scorers/BaseScorer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/Scorers/DistanceToDynamicPositionScorer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/Scorers/DistanceToDynamicPositionScorer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/Scorers/TakingDamageScorer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/Scorers/TakingDamageScorer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/FirstPerson.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/FirstPerson/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/FirstPerson/Scripts/FirstPersonCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/FirstPerson/Scripts/FirstPersonCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/FirstPerson/Scripts/FirstPersonPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/FirstPerson/Scripts/FirstPersonPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenuPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenuPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MainMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MainMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MainMenuPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MainMenuPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MenuCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MenuCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MessagePanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MessagePanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/PauseMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/PauseMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/PauseMenuPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/PauseMenuPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Menu/Sprites/Menu Buttons sprite (BnW).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/UI/Menu/Sprites/Menu Buttons sprite (BnW).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/UI.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/UI.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Crosshairs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Crosshairs/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Crosshairs/Scripts/CrosshairChangerOnHit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Crosshairs/Scripts/CrosshairChangerOnHit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Crosshairs/Scripts/CrosshairChangerOnPoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Crosshairs/Scripts/CrosshairChangerOnPoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Crosshairs/Scripts/ICrosshairChanger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Crosshairs/Scripts/ICrosshairChanger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Prefabs/Bullet Explosion.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Prefabs/Bullet Explosion.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Prefabs/Gun.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Weapons/Prefabs/Gun.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/Ball.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/Ball.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallBreaker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallBreaker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallDeathParticle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallDeathParticle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallThrower.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallThrower.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/IBall.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/IBall.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/IHitEffect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/IHitEffect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/IShootEffect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/IShootEffect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/IWeaponShootAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/IWeaponShootAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponCrosshair.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponCrosshair.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponHitEffect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponHitEffect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponShootAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponShootAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponShootEffect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponShootEffect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponSway.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponSway.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,73 +292,68 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0EE48075-9F3D-481D-82AD-A245DC74F9FD/69/bc782bf9/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CBE50D5B-A284-4C70-A1EF-AC67BD638A65/af/077de601/ParticleSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/QuickOutline/Scripts/Outline.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Player/Scripts/MoveCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0EE48075-9F3D-481D-82AD-A245DC74F9FD/d2/0f0e1f39/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Unity/TestLevel/Assets/Game/Scripts/UtilityAI/AI.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Health.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/IDamageRecipient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Characters/Enemies/Shooting/EnemyShootingSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMPro_Private.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/89D295CA-D760-40F3-9B58-0BB1FBE20EA4/31/7be8d2df/Physics.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/FinishTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Weapons/WeaponCrosshair.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../homework1/Assets/Scripts/GameMechanics/Behaviors/Turn.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/CursorState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/FirstPersonCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MenuCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MenuCanvas.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/FirstPersonCanvas.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/CameraSwitch.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/CursorState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MenuPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/FirstPersonPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MainMenuPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/CameraSwitch.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/UI/FirstPerson/Scripts/FirstPersonCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/UI/FirstPerson/Scripts/FirstPersonPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/IHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/EnemyTarget.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenuPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/IAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Shooting/EnemyShootingAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Movement/EnemyMovementSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Helpers/Scripts/PoolMono.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/F.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/FinishTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/MessagePanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/Configs/TestLevelConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameRestarter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Player/Scripts/Rotation/PlayerRotationSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/Actions/BaseAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/UtilityAI/AI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/Balls/BallManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Characters/Enemies/Scripts/Shooting/EnemyShootingSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/GameMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/PauseMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/UI/Menu/Scripts/PauseMenuPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/PanelSwitch.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/IMenuInputControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/MenuCallChecker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/KeyboardMenuInputControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/LossChecker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Player/Scripts/Shooting/PlayerShootingSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Weapons/Scripts/WeaponManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/DamageRecipient.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameSessionLog.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Core/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Player/Movement/IMovementInputControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Player/Jumping/KeyboardJumpingInputControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Player/Jumping/IJumpingInputControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Player/Gazing/PlayerGazingSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Player/Aiming/PlayerAimingSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Player/Aiming/MouseAimingInputControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Player/Aiming/IAimingInputControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Helpers/Scripts/PoolMono.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Helpers/Scripts/GameStateHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Helpers/Scripts/ExitHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/StateGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/PanelSwitch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/LossChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/IMenuInputControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/GameSessionLog.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/CursorState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/CameraSwitch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/Configs/TestLevelConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Characters/Enemies/EnemyTarget.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Characters/Enemies/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Characters/Enemies/Rotation/EnemyRotationSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Characters/Enemies/Movement/IMovementStopper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Characters/Enemies/Gazing/EnemyGazingSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/KeyboardMenuInputControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/GameState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Weapons/Balls/Ball.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Player/PlayerTarget.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/GameRestarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Core/MenuCallChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/FinishTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Weapons/WeaponShooter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Weapons/IWeaponShooter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Weapons/WeaponHitEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Weapons/WeaponShootAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Weapons/WeaponManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Weapons/WeaponSway.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Weapons/WeaponCrosshair.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Player/Shooting/PlayerShootingSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Player/Jumping/PlayerJumpingSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Helpers/PoolMono.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Helpers/GameStateHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Helpers/ExitHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Characters/Enemies/Movement/EnemyMovementAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Characters/Enemies/IAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Characters/Enemies/Shooting/EnemyShootingSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Characters/Enemies/Movement/EnemyMovementSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Characters/Enemies/Shooting/EnemyShootingAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/UtilityAI/Scorers/TakingDamageScorer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/Characters/Enemies/EnemyKiller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GameMechanics/UtilityAI/AI.cs" />
       </list>
     </option>
   </component>
@@ -150,6 +372,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds/TestLevel.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Unity\TestLevel\Builds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -186,7 +416,9 @@
       <workItem from="1643622583128" duration="28358000" />
       <workItem from="1643700394250" duration="36356000" />
       <workItem from="1643792673291" duration="3907000" />
-      <workItem from="1643808144293" duration="6746000" />
+      <workItem from="1643808144293" duration="6836000" />
+      <workItem from="1643823935406" duration="5983000" />
+      <workItem from="1643869899983" duration="8911000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1643285185504</created>
@@ -251,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643753090597</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Реализован вызов паузы и меню через кнопку ESC. Добавлен журнал игровой сессии, в который записываются: Начало игры, выстрел, попадение в агента, проигрыш и выигрыш.">
+      <created>1643815214375</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1643815214375</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,24 +521,25 @@
     <MESSAGE value="Добавлены NavMesh, система перемещения противника, анимация ходьбы противника." />
     <MESSAGE value="Добавлено поведение врагов - стрельба шарами по игроку через UtilityAI и уровень агрессивности. Добавлено отбрасывание игрока при попадании в него шаром. Добавлен взрыв шара через определенно время и ударная волная от взрыва по игроку. Добавлена возможность уничтожить шар до взрыва. Добавлен поворот врагов к персонажу во время агрессивности." />
     <MESSAGE value="Добавлено меню и пролет начальной камеры над уровнем. Добавлены меню проигрыша и выигрыша. Добавлена возможность начать уровень сначала. Добавлен проигрыш - падение вниз с уровня и выигрыш - добраться до финиша." />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлено меню и пролет начальной камеры над уровнем. Добавлены меню проигрыша и выигрыша. Добавлена возможность начать уровень сначала. Добавлен проигрыш - падение вниз с уровня и выигрыш - добраться до финиша." />
+    <MESSAGE value="Реализован вызов паузы и меню через кнопку ESC. Добавлен журнал игровой сессии, в который записываются: Начало игры, выстрел, попадение в агента, проигрыш и выигрыш." />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализован вызов паузы и меню через кнопку ESC. Добавлен журнал игровой сессии, в который записываются: Начало игры, выстрел, попадение в агента, проигрыш и выигрыш." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="220" key="RiderGenerateDialog" timestamp="1643648452186">
+    <state x="794" y="220" key="RiderGenerateDialog" timestamp="1643875744864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="220" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1643648452186" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1643753097293">
+    <state x="794" y="220" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1643875744864" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1643815217327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1643753097293" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1643815217327" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1643746340656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1643746340656" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1643813880816">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1643878843801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1643813880816" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1643878843801" />
   </component>
 </project>

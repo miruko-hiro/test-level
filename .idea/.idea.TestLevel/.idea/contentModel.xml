@@ -12,169 +12,176 @@
           </e>
         </e>
         <e p="Game" t="Include">
-          <e p="Characters" t="Include">
-            <e p="Enemies" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="Enemy.cs" t="Include" />
-                <e p="EnemyTarget.cs" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="GameMechanics" t="Include">
+              <e p="Cameras" t="Include">
+                <e p="FirstPersonCamera.cs" t="Include" />
+                <e p="MenuCamera.cs" t="Include" />
+              </e>
+              <e p="Characters" t="Include">
+                <e p="DamageRecipient.cs" t="Include" />
+                <e p="Enemies" t="Include">
+                  <e p="EnemyKiller.cs" t="Include" />
+                  <e p="EnemyTarget.cs" t="Include" />
+                  <e p="Gazing" t="Include">
+                    <e p="EnemyGazingSystem.cs" t="Include" />
+                  </e>
+                  <e p="IAnimation.cs" t="Include" />
+                  <e p="Movement" t="Include">
+                    <e p="EnemyMovementAnimation.cs" t="Include" />
+                    <e p="EnemyMovementSystem.cs" t="Include" />
+                    <e p="IMovementStopper.cs" t="Include" />
+                  </e>
+                  <e p="Rotation" t="Include">
+                    <e p="EnemyRotationSystem.cs" t="Include" />
+                  </e>
+                  <e p="Shooting" t="Include">
+                    <e p="EnemyShootingAnimation.cs" t="Include" />
+                    <e p="EnemyShootingSystem.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Health.cs" t="Include" />
+                <e p="IDamageRecipient.cs" t="Include" />
+                <e p="IHealth.cs" t="Include" />
+              </e>
+              <e p="Core" t="Include">
+                <e p="CameraSwitch.cs" t="Include" />
+                <e p="Configs" t="Include">
+                  <e p="TestLevelConfig.cs" t="Include" />
+                </e>
+                <e p="CursorState.cs" t="Include" />
+                <e p="DataStorage.cs" t="Include" />
+                <e p="GameManager.cs" t="Include" />
+                <e p="GameRestarter.cs" t="Include" />
+                <e p="GameSessionLog.cs" t="Include" />
+                <e p="GameState.cs" t="Include" />
+                <e p="IMenuInputControl.cs" t="Include" />
+                <e p="KeyboardMenuInputControl.cs" t="Include" />
+                <e p="LossChecker.cs" t="Include" />
+                <e p="MenuCallChecker.cs" t="Include" />
+                <e p="PanelSwitch.cs" t="Include" />
+                <e p="StateGame.cs" t="Include" />
+                <e p="TimerManager.cs" t="Include" />
+              </e>
+              <e p="FinishTrigger.cs" t="Include" />
+              <e p="GameMechanics.asmdef" t="Include" />
+              <e p="Helpers" t="Include">
+                <e p="ExitHelper.cs" t="Include" />
+                <e p="GameStateHelper.cs" t="Include" />
+                <e p="PoolMono.cs" t="Include" />
+              </e>
+              <e p="Player" t="Include">
+                <e p="Aiming" t="Include">
+                  <e p="IAimingInputControl.cs" t="Include" />
+                  <e p="MouseAimingInputControl.cs" t="Include" />
+                  <e p="PlayerAimingSystem.cs" t="Include" />
+                </e>
                 <e p="Gazing" t="Include">
-                  <e p="EnemyGazingSystem.cs" t="Include" />
+                  <e p="PlayerGazingSystem.cs" t="Include" />
                 </e>
-                <e p="IAnimation.cs" t="Include" />
+                <e p="ITarget.cs" t="Include" />
+                <e p="Jumping" t="Include">
+                  <e p="IJumpingInputControl.cs" t="Include" />
+                  <e p="KeyboardJumpingInputControl.cs" t="Include" />
+                </e>
+                <e p="MoveCamera.cs" t="Include" />
                 <e p="Movement" t="Include">
-                  <e p="EnemyMovementAnimation.cs" t="Include" />
-                  <e p="EnemyMovementSystem.cs" t="Include" />
-                  <e p="IMovementStopper.cs" t="Include" />
+                  <e p="IMovementInputControl.cs" t="Include" />
+                  <e p="KeyboardMovementInputControl.cs" t="Include" />
+                  <e p="PlayerMovementSystem.cs" t="Include" />
                 </e>
+                <e p="PlayerTarget.cs" t="Include" />
                 <e p="Rotation" t="Include">
-                  <e p="EnemyRotationSystem.cs" t="Include" />
+                  <e p="IRotationInputControl.cs" t="Include" />
+                  <e p="MouseRotationInputControl.cs" t="Include" />
+                  <e p="PlayerRotationSystem.cs" t="Include" />
                 </e>
                 <e p="Shooting" t="Include">
-                  <e p="EnemyShootingAnimation.cs" t="Include" />
-                  <e p="EnemyShootingSystem.cs" t="Include" />
+                  <e p="IShootingInputControl.cs" t="Include" />
+                  <e p="MouseShootingInputControl.cs" t="Include" />
+                  <e p="PlayerShootingSystem.cs" t="Include" />
+                </e>
+                <e p="Sprinting" t="Include">
+                  <e p="ISprintingInputControl.cs" t="Include" />
+                  <e p="KeyboardSprintingInputControl.cs" t="Include" />
                 </e>
               </e>
-              <e p="Shaders" t="Include">
-                <e p="WallhackShader.shader" t="Include" />
+              <e p="UtilityAI" t="Include">
+                <e p="Actions" t="Include">
+                  <e p="BaseAction.cs" t="Include" />
+                </e>
+                <e p="AI.cs" t="Include" />
+                <e p="ScoreKeeper.cs" t="Include" />
+                <e p="Scorers" t="Include">
+                  <e p="BaseScorer.cs" t="Include" />
+                  <e p="DistanceToDynamicPositionScorer.cs" t="Include" />
+                  <e p="TakingDamageScorer.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Weapons" t="Include">
+                <e p="Balls" t="Include">
+                  <e p="Ball.cs" t="Include" />
+                  <e p="BallBreaker.cs" t="Include" />
+                  <e p="BallDeathParticle.cs" t="Include" />
+                  <e p="BallManager.cs" t="Include" />
+                  <e p="BallSpawner.cs" t="Include" />
+                  <e p="BallThrower.cs" t="Include" />
+                  <e p="IBall.cs" t="Include" />
+                </e>
+                <e p="Crosshairs" t="Include">
+                  <e p="CrosshairChangerOnHit.cs" t="Include" />
+                  <e p="CrosshairChangerOnPoint.cs" t="Include" />
+                  <e p="ICrosshairChanger.cs" t="Include" />
+                </e>
+                <e p="IHitEffect.cs" t="Include" />
+                <e p="IShootEffect.cs" t="Include" />
+                <e p="IWeaponShootAnimation.cs" t="Include" />
+                <e p="IWeaponShooter.cs" t="Include" />
+                <e p="WeaponCrosshair.cs" t="Include" />
+                <e p="WeaponHitEffect.cs" t="Include" />
+                <e p="WeaponManager.cs" t="Include" />
+                <e p="WeaponShootAnimation.cs" t="Include" />
+                <e p="WeaponShootEffect.cs" t="Include" />
+                <e p="WeaponShooter.cs" t="Include" />
+                <e p="WeaponSway.cs" t="Include" />
               </e>
             </e>
-          </e>
-          <e p="Helpers" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="ExitHelper.cs" t="Include" />
-              <e p="GameStateHelper.cs" t="Include" />
-              <e p="PoolMono.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Player" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="Aiming" t="Include">
-                <e p="IAimingInputControl.cs" t="Include" />
-                <e p="MouseAimingInputControl.cs" t="Include" />
-                <e p="PlayerAimingSystem.cs" t="Include" />
-              </e>
-              <e p="Gazing" t="Include">
-                <e p="PlayerGazingSystem.cs" t="Include" />
-              </e>
-              <e p="ITarget.cs" t="Include" />
-              <e p="Jumping" t="Include">
-                <e p="IJumpingInputControl.cs" t="Include" />
-                <e p="KeyboardJumpingInputControl.cs" t="Include" />
-              </e>
-              <e p="MoveCamera.cs" t="Include" />
-              <e p="Movement" t="Include">
-                <e p="IMovementInputControl.cs" t="Include" />
-                <e p="KeyboardMovementInputControl.cs" t="Include" />
-                <e p="PlayerMovementSystem.cs" t="Include" />
-              </e>
-              <e p="PlayerTarget.cs" t="Include" />
-              <e p="Rotation" t="Include">
-                <e p="IRotationInputControl.cs" t="Include" />
-                <e p="MouseRotationInputControl.cs" t="Include" />
-                <e p="PlayerRotationSystem.cs" t="Include" />
-              </e>
-              <e p="Shooting" t="Include">
-                <e p="IShootingInputControl.cs" t="Include" />
-                <e p="MouseShootingInputControl.cs" t="Include" />
-                <e p="PlayerShootingSystem.cs" t="Include" />
-              </e>
-              <e p="Sprinting" t="Include">
-                <e p="ISprintingInputControl.cs" t="Include" />
-                <e p="KeyboardSprintingInputControl.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="CollisionDamage.cs" t="Include" />
-            <e p="Core" t="Include">
-              <e p="CameraSwitch.cs" t="Include" />
-              <e p="Configs" t="Include">
-                <e p="TestLevelConfig.cs" t="Include" />
-              </e>
-              <e p="CursorState.cs" t="Include" />
-              <e p="GameManager.cs" t="Include" />
-              <e p="GameRestarter.cs" t="Include" />
-              <e p="GameSessionLog.cs" t="Include" />
-              <e p="GameState.cs" t="Include" />
-              <e p="IMenuInputControl.cs" t="Include" />
-              <e p="KeyboardMenuInputControl.cs" t="Include" />
-              <e p="LossChecker.cs" t="Include" />
-              <e p="MenuCallChecker.cs" t="Include" />
-              <e p="PanelSwitch.cs" t="Include" />
-            </e>
-            <e p="DamageRecipient.cs" t="Include" />
-            <e p="FinishTrigger.cs" t="Include" />
-            <e p="Health.cs" t="Include" />
-            <e p="IDamage.cs" t="Include" />
-            <e p="IDamageRecipient.cs" t="Include" />
-            <e p="IHealth.cs" t="Include" />
-            <e p="StateGame.cs" t="Include" />
-            <e p="UtilityAI" t="Include">
-              <e p="Actions" t="Include">
-                <e p="BaseAction.cs" t="Include" />
-              </e>
-              <e p="AI.cs" t="Include" />
-              <e p="ScoreKeeper.cs" t="Include" />
-              <e p="Scorers" t="Include">
-                <e p="BaseScorer.cs" t="Include" />
-                <e p="DistanceToDynamicPositionScorer.cs" t="Include" />
-                <e p="TakingDamageScorer.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="UI" t="Include">
-            <e p="FirstPerson" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="FirstPersonCamera.cs" t="Include" />
+            <e p="UI" t="Include">
+              <e p="FirstPerson" t="Include">
                 <e p="FirstPersonPanel.cs" t="Include" />
+                <e p="Stopwatch" t="Include">
+                  <e p="Timer.cs" t="Include" />
+                  <e p="TimerBase.cs" t="Include" />
+                </e>
               </e>
-            </e>
-            <e p="Menu" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="GameMenu.cs" t="Include" />
-                <e p="GameMenuPanel.cs" t="Include" />
-                <e p="MainMenu.cs" t="Include" />
-                <e p="MainMenuPanel.cs" t="Include" />
-                <e p="MenuCamera.cs" t="Include" />
-                <e p="MessagePanel.cs" t="Include" />
-                <e p="PauseMenu.cs" t="Include" />
-                <e p="PauseMenuPanel.cs" t="Include" />
+              <e p="Menu" t="Include">
+                <e p="Game" t="Include">
+                  <e p="GameMenu.cs" t="Include" />
+                  <e p="GameMenuPanel.cs" t="Include" />
+                  <e p="Message" t="Include">
+                    <e p="IMessagePanel.cs" t="Include" />
+                    <e p="MessagePanel.cs" t="Include" />
+                    <e p="MessagePanelModel.cs" t="Include" />
+                    <e p="MessagePanelPresenter.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Main" t="Include">
+                  <e p="MainMenu.cs" t="Include" />
+                  <e p="MainMenuPanel.cs" t="Include" />
+                </e>
+                <e p="Pause" t="Include">
+                  <e p="PauseMenu.cs" t="Include" />
+                  <e p="PauseMenuPanel.cs" t="Include" />
+                </e>
               </e>
+              <e p="UI.asmdef" t="Include" />
             </e>
-            <e p="UI.asmdef" t="Include" />
           </e>
           <e p="Weapons" t="Include">
-            <e p="Crosshairs" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="CrosshairChangerOnHit.cs" t="Include" />
-                <e p="CrosshairChangerOnPoint.cs" t="Include" />
-                <e p="ICrosshairChanger.cs" t="Include" />
-              </e>
-            </e>
             <e p="Materials" t="Include">
               <e p="Graphic" t="Include">
                 <e p="UnlitVertexColour_Alpha.shader" t="Include" />
               </e>
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="Balls" t="Include">
-                <e p="Ball.cs" t="Include" />
-                <e p="BallBreaker.cs" t="Include" />
-                <e p="BallDeathParticle.cs" t="Include" />
-                <e p="BallManager.cs" t="Include" />
-                <e p="BallSpawner.cs" t="Include" />
-                <e p="BallThrower.cs" t="Include" />
-                <e p="IBall.cs" t="Include" />
-              </e>
-              <e p="IHitEffect.cs" t="Include" />
-              <e p="IShootEffect.cs" t="Include" />
-              <e p="IWeaponShootAnimation.cs" t="Include" />
-              <e p="WeaponCrosshair.cs" t="Include" />
-              <e p="WeaponHitEffect.cs" t="Include" />
-              <e p="WeaponManager.cs" t="Include" />
-              <e p="WeaponShootAnimation.cs" t="Include" />
-              <e p="WeaponShootEffect.cs" t="Include" />
-              <e p="WeaponSway.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -283,6 +290,7 @@
         </e>
       </e>
       <e p="DOTween.Modules.csproj" t="IncludeRecursive" />
+      <e p="GameMechanics.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />

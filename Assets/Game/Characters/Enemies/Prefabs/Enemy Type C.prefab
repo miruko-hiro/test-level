@@ -612,7 +612,6 @@ GameObject:
   - component: {fileID: 6157918261422913925}
   - component: {fileID: 720570733341895410}
   - component: {fileID: 6054875097721383023}
-  - component: {fileID: 7593438155269173575}
   - component: {fileID: 1414568783526934085}
   - component: {fileID: 6538637750730649578}
   - component: {fileID: 6542409209780530245}
@@ -620,7 +619,6 @@ GameObject:
   - component: {fileID: 1637712640657570313}
   - component: {fileID: 4496602768644166146}
   - component: {fileID: 7683409134757339805}
-  - component: {fileID: 6811358035373462202}
   - component: {fileID: 5589135420774807309}
   - component: {fileID: 8928093354639664577}
   - component: {fileID: 5217684844650938428}
@@ -724,18 +722,6 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
---- !u!114 &7593438155269173575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6157918261422913924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f4c8d98f5444845b060dc2006d2d59b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1414568783526934085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -846,18 +832,6 @@ MonoBehaviour:
   _ballManager: {fileID: 0}
   _targetTransform: {fileID: 0}
   _timeBetweenShots: 2
---- !u!114 &6811358035373462202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6157918261422913924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62d49f700732492099829f2eef881e0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5589135420774807309
 MonoBehaviour:
   m_ObjectHideFlags: 0

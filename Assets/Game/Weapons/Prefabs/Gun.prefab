@@ -11,9 +11,7 @@ GameObject:
   - component: {fileID: 3807088784824295168}
   - component: {fileID: 3203601554303253429}
   - component: {fileID: 8219776960051539132}
-  - component: {fileID: 5556564984880969043}
   - component: {fileID: 8984760176822039360}
-  - component: {fileID: 4433713844785277541}
   - component: {fileID: 847974724836490820}
   - component: {fileID: 7975489875212404091}
   - component: {fileID: 250693605140484261}
@@ -69,19 +67,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerGazingSystem: {fileID: 0}
---- !u!114 &5556564984880969043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4584294678427534778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 765cb0ae8ead4fd492f1e2f8e7bdc71e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _bulletExplosionParticle: {fileID: 0}
 --- !u!114 &8984760176822039360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,18 +80,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _flashShootParticle: {fileID: 2035405574591380602}
---- !u!114 &4433713844785277541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4584294678427534778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d4953e2b3ac40b68cb8d9aaada7f4c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &847974724836490820
 MonoBehaviour:
   m_ObjectHideFlags: 0
